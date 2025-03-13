@@ -1,0 +1,108 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito Sans", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+}
+/* ========== start nav style ========== */
+.mynav{
+    padding: 10px 0;
+}
+.mynav .nav-item a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px; 
+
+}
+.span-icon i {
+    color:rgba(255, 255, 255, 0.907);
+    
+}
+.icon-left{
+    left: 10px;
+}
+.icon-right{
+    right: 10px;
+} 
+
+
+/*   ========== start slider style ==========  */
+.span-icon {
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 50%; 
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.span-icon i {
+    font-size: 24px;
+    color: black; 
+
+}
+.sec-img{
+    width: 22%;
+}
+
+/*   ========== start header-content style ==========  */
+.header-content h3 {
+    color: #1E2021;
+} 
+.header-content h4{
+    color: #333435;
+}
+.header-content p {
+    color: #9f9fa1;
+    line-height: 1.7;
+}
+.testimonail .parent-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} 
+.testimonail .item-info p {
+    color: #8b8b8b;
+
+}
+.testimonail .rate span {
+    color: #8b8b8b;
+}
+.testimonail .off {
+    color: rgba(0, 128, 0, 0.922) ;
+    background-color: #a6f7a6;
+    font-size: 14px; 
+    font-weight: 800;
+}
+.testimonail .custom{
+    background-color:#e0e0e0;
+}
+.testimonail .my-btn{
+    background-color: #e98d31;
+}
+ .testimonail .custom .myspan{
+    top:10%;
+    left: 10%;
+    transform: translate(-10%);
+    z-index: 999;
+}
+.testimonail .custom .myspan-2{
+    top:10%;
+    right: 10%;
+    transform: translate(-10%);
+    z-index: 999;
+
+}
+.testimonail .custom .item{
+    color: #299629e9;
+}
+.testimonail .custom ul  .special {
+  color:  #7E7E7F
+}
+.testimonail .last-item{
+    background-color:#e0e0e0;
+}
